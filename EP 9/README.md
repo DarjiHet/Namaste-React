@@ -1,34 +1,26 @@
 # Learning React 🚀 | Namaste React Course
 <br>
 
-## Concepts Covered 
+# 🚀 Namaste React - Learning Journey 
+
 <br>
 
-Throughout the course, I have learned and implemented the following concepts:<br>
-
-- **useState Hook** – Managing state in functional components.<br>  
-- **Reconciliation** – How React efficiently updates the UI.<br>
-- **React Fiber** – The architecture behind React’s rendering and scheduling.<br>
-- **Virtual DOM** – Optimizing UI updates using a lightweight DOM representation.<br>  
-- **Diff Algorithm** – Understanding how React determines which parts of the UI need updates.<br>
-
-
-https://www.swiggy.com/city/ahmedabad/pizza-hut-ashram-road-navrangpura-rest47589
-
-https://www.swiggy.com/city/ahmedabad/name-locality-areaName-restid
-
-
-
-https://www.swiggy.com/city/ahmedabad/la-milano-pizzeria-navrangpura-rest417826
-https://www.swiggy.com/city/ahmedabad/winners-pizza-fresh-dough-sachet-2-navrangpura-rest785855
-
-
-<ul>
-                {
-                    itemCards ? (
-                        itemCards.map((item) => (
-                            <li key={item.card.info.id} > {item.card.info.name} - {item.card.info.defaultPrice / 100 || item.card.info.finalPrice / 100 || item.card.info.price / 100 } </li>
-                        ))
-                    ) : ( <p> Not </p> )
-                }
-            </ul>
+## This repository documents my learning experience from the Namaste React course. Each day, I explore new concepts and deepen my understanding of React and frontend development.
+<br>
+📌 Today's Learnings 
+<br>
+1️⃣ Single Responsibility Principle (SRP)
+Each component should have one well-defined purpose.
+Improves maintainability and reusability.
+<br>
+2️⃣ Modularity
+Breaking the app into smaller, reusable components.
+Keeps code clean and organized.
+<br>
+3️⃣ Optimizing React Apps
+Techniques like memoization, PureComponent, and useMemo/useCallback to prevent unnecessary re-renders.
+Keeping state minimal and localized.
+<br>
+4️⃣ React Lazy & Suspense
+React.lazy() helps in dynamically importing components for better performance.
+Suspense lets us handle loading states while fetching lazy-loaded components.-rest785855
