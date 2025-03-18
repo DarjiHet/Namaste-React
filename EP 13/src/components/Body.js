@@ -55,7 +55,7 @@ const Body = () => {
             <div className="filter flex">
 
                 <div className="search p-4 m-4">
-                    <input type="text" name="Steaxt" className="text border p-2" value={searchText} onChange={(e) => {
+                    <input data-testid="searchInput" type="text" name="Steaxt" className="text border p-2" value={searchText} onChange={(e) => {
                         setSearchText(e.target.value);
                     }} />
                     <button className="search-btn px-4 py-2 border bg-green-200 cursor-pointer rounded-lg" onClick={() => {

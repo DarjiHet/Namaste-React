@@ -14,7 +14,7 @@ const ItemList = ({ items }) => {
     return (
         <div>
             {items.map((item, index) => (
-                <div key={index} className="p-2 m-2 border-gray-200 border-b-2 text-left">
+                <div data-testid="foodItems" key={index} className="p-2 m-2 border-gray-200 border-b-2 text-left">
                     <div className="p-4">
                         <img src={CDN_URL + item?.card?.info?.imageId} className="w-35" />
                         <button className="p-2 bg-black text-white shadow-lg text-xs relative left-12 rounded-lg cursor-pointer" onClick={() => handleAddItem(item)}> Add+ </button>

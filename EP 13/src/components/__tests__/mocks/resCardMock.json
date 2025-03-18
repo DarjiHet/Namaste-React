@@ -1,0 +1,57 @@
+{
+    "info": {
+        "id": "785843",
+        "name": "Starboy Pizza & Shakes",
+        "city": "10",
+        "slugs": {
+            "restaurant": "starboy-pizza-&-shakes-navrangpura-navrangpura"
+        },
+        "cloudinaryImageId": "e14931c66de0802195b1e69707a78027",
+        "locality": "Sachet 2",
+        "areaName": "CG Road",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "Pizzas",
+            "Beverages"
+        ],
+        "avgRating": 4.1,
+        "feeDetails": {
+            "restaurantId": "785843",
+            "title": "Delivery Charge",
+            "amount": "0"
+        },
+        "totalRatingsString": "575",
+        "promoted": true,
+        "adTrackingId": "cid=26287098~p=0~adgrpid=26287098#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=785843~st=pizza hut~eid=044a5788-d689-4683-ba79-a31616c11219~srvts=1741783123631~collid=56861",
+        "sla": {
+            "deliveryTime": 30,
+            "minDeliveryTime": 30,
+            "maxDeliveryTime": 35,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 MINS",
+            "lastMileTravelString": "2.3 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2025-03-13 05:00:00",
+            "opened": true
+        },
+        "badges": {},
+        "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹79",
+            "logoCtx": {
+                "text": "BENEFITS"
+            }
+        },
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+        "campaignId": "26287098"
+    },
+    "analytics": {},
+    "cta": {}
+}
